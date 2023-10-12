@@ -1,0 +1,148 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+.maindiv{
+    padding: 50px;
+display: flex;
+flex-direction: column;
+gap: 20%;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+ul{
+    display: flex;
+}
+ li{
+    display: flex;
+        flex-direction: column;
+    color: gray;
+   padding:10px;
+list-style-type: none;
+
+}
+.nav3{
+    font-size: 1em;
+    display: flex;
+}
+.blue{
+    color: rgb(19, 19, 88);
+}
+.belownav{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  
+} 
+.signin{
+    color: gray;
+    padding: 10px;
+    padding-right: 15px;
+}
+.signup{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color:  lightseagreen;
+    border-radius: 20px;
+}
+.Learn{
+  padding: 10px;
+    color:  lightseagreen;
+}
+.purchase{
+    display: flex;
+     justify-content: center;
+     text-align: start;
+     position: relative;
+     left: 42%;
+    padding: 10px;
+    width:180px;
+    border-radius: 20vw;
+    background-color:  lightseagreen;
+}
+.para{
+    display: flex;
+     justify-content: center;
+     text-align: center;
+    color: grey;
+    font-size: 1.3em;
+}
+.lastdiv{
+    display: flex;
+    padding: 3%;
+     justify-content: center;
+     text-align: center;
+     flex-direction: column;
+}
+.h1{
+    display: flex;
+    padding: 3%;
+     justify-content: center;
+     text-align: start;
+    font-size:50px;
+    color: rgb(19, 19, 88);
+}
+
+@media only screen and (min-width:360px ) and ( max-width: 600px){
+    .maindiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+    .nav2{
+        padding-top: 20px;
+        display: flex;
+
+    }
+    .nav3{
+        display: flex;
+        justify-content: space-between;
+    }
+    .blue{
+display: none;
+    }
+  
+    ul{
+        display: flex;
+      font-size: 1em;
+    }
+    .signup{
+        padding: 10px;
+        height: 20px;
+        width: 70px;
+        border-radius: 20px;
+    }   
+    .h1{
+        padding-top: 20px;
+        display: flex;
+        text-align:center;
+        font-size: 1.2em;
+    }
+   
+    .para{
+        padding-top: 20px;
+        font-size: 1em;
+    }
+    .purchase{
+        position: relative;
+     left: 15%;
+        font-size: 0.8em;
+    }
+    .belownav{
+  
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      
+    } 
+}
